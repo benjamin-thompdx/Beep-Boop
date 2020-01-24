@@ -5,6 +5,9 @@ function suprise(inputNumber) {
   for(i = 0; i <= parseInt(inputNumber); i++) {
     arrNumbers.push(i);
   }
+  var arrWords = arrNumbers.map(String);
+  replace(arrWords);
+  return arrWords;
 }
 
 // User Interface (Front-End) Logic //
