@@ -11,7 +11,7 @@ button:hover {
 
   .flex-container {
     display: flex;
-    background-color: white;
+    background-color: rgb(75,78,81);
     opacity: 0.9;
     justify-content: center;
     flex-direction: column;
