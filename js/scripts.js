@@ -5,9 +5,8 @@
 // User Interface (Front-End) Logic //
 
 $(document).ready(function(){
-  $("#submitButton").click(function (event) {
-    console.log("hello");
+  $("form#beep-boop").click(function (event) {
+  console.log("#submitButton");
     event.preventDefault();
   });
 });
-
