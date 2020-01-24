@@ -29,7 +29,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 | Test each element for a "3" | "3" | Return "I'm sorry, Dave. I'm afraid I can't do that." |
 | Test each element for a "2" | "2" | Return "Boop!" |
 | Test each element for a "1" | "1" | Return "Beep!" |
-| Manage order of precedence with "3" being the most important | Example: "123" | Example: Return Return "I'm sorry, Dave. I'm afraid I can't do that." |
+| Manage order of precedence with "3" being the most important | Example: "123" | Example: Return "I'm sorry, Dave. I'm afraid I can't do that." |
 
 ## Known Bugs
 
