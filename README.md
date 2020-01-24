@@ -18,12 +18,18 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
-## Behavioral Driven Developement Specs 
+## Behavioral Driven Developement Specifications
+
+
 
 | Behavior       | Input    | Output     |
 | :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
-| You Can Also   | Put Pipes In | Like this \| |
+| Check that all inputted values are numbers, and if inputs are not numbers return an error | Example: Dog | Example: "Error, please insert a number" |
+| The program returns a range of numbers from 0 to the users inputted number | Example: "4" | Example: "0,1,2,3,4" |
+| Test each element for a "3" | "3" | Return "I'm sorry, Dave. I'm afraid I can't do that." |
+| Test each element for a "2" | "2" | Return "Boop!" |
+| Test each element for a "1" | "1" | Return "Beep!" |
+| Manage order of precedence with "3" being the most important | Example: "123" | Example: Return Return "I'm sorry, Dave. I'm afraid I can't do that." |
 
 ## Known Bugs
 
