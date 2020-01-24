@@ -31,6 +31,8 @@ $(document).ready(function() {
       results.forEach(function(result) {
         $("ul").append("<li>"+result+"</li>")
       });
+    } else {
+      alert("Error, please insert a number");
     }
   });
 });
