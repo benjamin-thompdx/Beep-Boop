@@ -1,17 +1,12 @@
 // Business (Back-End) Logic //
 
-var surprise = function(userNumber) {
-  for(var userNumber=1;userNumber >= 1; userNumber++) {
-    if(userNumber === 3) {
-      .show("I'm sorry, Dave. I'm afraid I can't do that.");
-    }
-  }  
-}
+var surprise = function(userNumber)
+
 
 // User Interface (Front-End) Logic //
 
 $(document).ready(function(){
-  $("form#beep-boop").submit(function(event) {
+  $("form#beep-boop").submit(function(event){
   // console.log("#submitButton");
     event.preventDefault();
     var userNumber = parseInt($("input#userNumber").val());
@@ -19,7 +14,7 @@ $(document).ready(function(){
 
     $(".userNumber").text(userNumber);
 
-    if (isNaN(userNumber)) {
+    if (isNaN(userNumber)){
       alert("Error, please insert a number")
     } else {
       $("result").show();
