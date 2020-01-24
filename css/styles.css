@@ -5,6 +5,18 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.container {
-  background-image: linear-gradient(color1 30%, color2 50%, color3 20%)
-}
+button:hover {
+    background-color: rgb(78, 167, 245, 0.721);
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: white;
+    opacity: 0.9;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color:black;
+    background-size: cover;
+    height: 100%;
+  }
