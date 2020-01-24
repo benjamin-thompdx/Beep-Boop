@@ -1,6 +1,9 @@
 // Business (Back-End) Logic //
 
+function suprise(inputNumber) {
+  arrNumbers = []
 
+}
 
 // User Interface (Front-End) Logic //
 
