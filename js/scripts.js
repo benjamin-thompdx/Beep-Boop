@@ -2,7 +2,9 @@
 
 function suprise(inputNumber) {
   arrNumbers = []
-
+  for(i = 0; i <= parseInt(inputNumber); i++) {
+    arrNumbers.push(i);
+  }
 }
 
 // User Interface (Front-End) Logic //
