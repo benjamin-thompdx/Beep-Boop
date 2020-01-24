@@ -25,7 +25,12 @@ function replace(updatedNumbers) {
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event){
     event.preventDefault();
-    console.log("User Input")
-    var userInpt = $("input#userNumber").val();
+    var userInput = $("input#userNumber").val();
+    if (!isNaN(userInput)) {
+      var results = suprise(userInput);
+      results.forEach(function(result) {
+        $("ul").append("<li>"+result+"</li>")
+      });
+    }
   });
 });
