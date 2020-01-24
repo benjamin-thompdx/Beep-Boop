@@ -10,6 +10,18 @@ function suprise(inputNumber) {
   return arrWords;
 }
 
+function replace(updatedNumbers) {
+  updatedNumbers.forEach(function(updatedNumber, index, arr) {
+    if (updatedNumber.includes("3")){
+      arr[index] = "I'm sorry, Dave. I'm afraid I can't do that."
+    } else if (updatedNumber.includes("2")){
+      arr[index] = "Boop"
+    } else if (updatedNumber.includes("1")){
+      arr[index] = "Beep"
+    }
+  });
+}
+
 // User Interface (Front-End) Logic //
 
 $(document).ready(function() {
